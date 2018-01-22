@@ -14,7 +14,13 @@
       "*"
     ]
   },
-  "dbConnections": [],
+  "dbConnections": [
+    {
+      "mongoClientOptions": {},
+      "name": "sample",
+      "url": "mongodb://localhost:37001/sample"
+    }
+  ],
   "logging": {
     "transports": [
       {
@@ -72,7 +78,7 @@
   "npm_config_metrics_registry": "https://registry.npmjs.org/",
   "npm_config_parseable": "",
   "npm_config_shrinkwrap": "true",
-  "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.WiQx0LNsqE/Render",
+  "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.62CLE6d7f0/Render",
   "npm_package_scripts_lint": "scripts/lint.sh",
   "npm_package_devDependencies_supertest": "^3.0.0",
   "npm_config_init_license": "ISC",
@@ -84,7 +90,7 @@
   "npm_config_cache_max": "Infinity",
   "npm_config_init_author_email": "",
   "npm_config_sign_git_tag": "",
-  "TERM_SESSION_ID": "w0t1p1:3F16D0FD-D743-4AD7-916C-2A2AEB8F133A",
+  "TERM_SESSION_ID": "w0t0p1:ECD0C4EA-5E05-4B32-84F9-F4038FBD9D92",
   "npm_package_devDependencies__types_mongodb": "^2.2.3",
   "npm_package_devDependencies_install": "^0.10.1",
   "npm_config_cert": "",
@@ -115,7 +121,7 @@
   "npm_config_always_auth": "",
   "npm_config_logs_max": "10",
   "npm_config_prefer_online": "",
-  "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.LXP5lzfeHg/Listeners",
+  "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.PpdhkEq3e6/Listeners",
   "npm_package_devDependencies__types_cors": "^2.8.1",
   "__CF_USER_TEXT_ENCODING": "0x1F6:0x0:0x0",
   "npm_package_devDependencies__types_express": "^4.0.35",
@@ -123,7 +129,7 @@
   "npm_config_global_style": "",
   "npm_execpath": "/Users/vijayakumari/.nvm/versions/node/v8.6.0/lib/node_modules/npm/bin/npm-cli.js",
   "npm_config_cafile": "",
-  "npm_package_author_name": "vijaya",
+  "npm_package_author_name": "vijayakumari",
   "npm_package_dependencies_cors": "^2.8.3",
   "npm_package_devDependencies__types_supertest": "^2.0.0",
   "npm_config_heading": "npm",
@@ -131,7 +137,7 @@
   "npm_config_offline": "",
   "npm_config_proprietary_attribs": "true",
   "npm_config_searchlimit": "20",
-  "PATH": "/Users/vijayakumari/.nvm/versions/node/v8.6.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/vijayakumari/sakuraExample/node_modules/.bin:/Users/vijayakumari/.nvm/versions/node/v8.6.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mongodb/bin",
+  "PATH": "/Users/vijayakumari/.nvm/versions/node/v8.6.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/vijayakumari/sakuraClassExample/node_modules/.bin:/Users/vijayakumari/.nvm/versions/node/v8.6.0/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/mongodb/bin:/Users/vijayakumari/amazon-ecr-credential-helper/bin/local/",
   "npm_package_devDependencies_jasmine_spec_reporter": "^4.1.1",
   "npm_config_argv": "{\"remain\":[],\"cooked\":[\"start\"],\"original\":[\"start\"]}",
   "npm_config_access": "",
@@ -144,14 +150,14 @@
   "npm_package_devDependencies__types_request_promise_native": "^1.0.6",
   "npm_config_init_module": "/Users/vijayakumari/.npm-init.js",
   "npm_config_userconfig": "/Users/vijayakumari/.npmrc",
-  "PWD": "/Users/vijayakumari/sakuraExample/dist/src",
+  "PWD": "/Users/vijayakumari/sakuraClassExample/dist/src",
   "npm_package_dependencies_mongodb": "^2.2.26",
   "npm_package_dependencies_node_sass": "^4.5.3",
   "npm_package_devDependencies_istanbul": "^0.4.5",
   "npm_config_node_version": "8.6.0",
   "npm_config_user": "502",
   "npm_lifecycle_event": "start",
-  "npm_package_name": "sakurasample",
+  "npm_package_name": "sakuraclassexample",
   "npm_package_dependencies__sakuraapi_api": "0.8.0",
   "npm_package_devDependencies_source_map_support": "^0.5.0",
   "npm_config_auth_type": "legacy",
@@ -205,7 +211,7 @@
   "npm_config_cache_lock_stale": "60000",
   "npm_config_prefer_offline": "",
   "npm_config_version": "",
-  "ITERM_SESSION_ID": "w0t1p1:3F16D0FD-D743-4AD7-916C-2A2AEB8F133A",
+  "ITERM_SESSION_ID": "w0t0p1:ECD0C4EA-5E05-4B32-84F9-F4038FBD9D92",
   "npm_config_cache_min": "10",
   "LOGNAME": "vijayakumari",
   "npm_package_scripts_install": "chmod u+x scripts/*.sh || true ; scripts/install.sh",
@@ -227,7 +233,7 @@
   "npm_package_devDependencies__types_node": "^9.3.0",
   "npm_config_cache_lock_wait": "10000",
   "MONGO_PATH": "/usr/local/mongodb",
-  "DISPLAY": "/private/tmp/com.apple.launchd.LsbD1qrred/org.macosforge.xquartz:0",
+  "DISPLAY": "/private/tmp/com.apple.launchd.LhR9rQXHhr/org.macosforge.xquartz:0",
   "npm_package_dependencies_encodeurl": "^1.0.1",
   "npm_config_production": "",
   "npm_package_dependencies_express": "^4.15.2",
@@ -253,6 +259,6 @@
   "npm_config_prefix": "/Users/vijayakumari/.nvm/versions/node/v8.6.0",
   "npm_node_execpath": "/Users/vijayakumari/.nvm/versions/node/v8.6.0/bin/node",
   "_": "/Users/vijayakumari/.nvm/versions/node/v8.6.0/bin/node",
-  "OLDPWD": "/Users/vijayakumari/sakuraExample",
+  "OLDPWD": "/Users/vijayakumari/sakuraClassExample",
   "NODE_ENV": "development"
 }

@@ -6,6 +6,8 @@ import * as helmet        from 'helmet';
 import {ConfigApi}        from './api/config.api';
 import {BootstrapIndexes} from './config/bootstrap/bootstrap-indexes';
 import {LogService}       from './services/log-service';
+import {UserApi}        from './api/user-api';
+import {UserModel}        from './models/user-model';
 
 const debug = debugInit('app:bootstrap');
 
@@ -21,14 +23,15 @@ export class Bootstrap {
 
     this.sapi = new SakuraApi({
       baseUrl: '/api',
-      models: [],
+      models: [UserModel],
       plugins: [
       ],
       providers: [
         LogService
       ],
       routables: [
-        ConfigApi
+        ConfigApi,
+        UserApi
       ]
     });
 

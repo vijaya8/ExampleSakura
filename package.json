@@ -1,8 +1,8 @@
 {
-  "name": "sakurasample",
+  "name": "sakuraclassexample",
   "version": "0.0.0",
   "description": "SakuraApi Awesome Sauce",
-  "author": "vijaya",
+  "author": "vijayakumari",
   "license": "UNLICENSED",
   "scripts": {
     "build": "scripts/build.sh",

@@ -1,9 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+const db_1 = require("./bootstrap/db");
 const MONGO_DB_ADDRESS = process.env.MONGO_DB_ADDRESS || 'localhost';
 const MONGO_DB_PORT = process.env.MONGO_DB_PORT || '37001';
 const MONGO_DB_CONN = process.env.MONGO_DB_CONN || null;
-const MONGO_DB_NAME = process.env.MONGO_DB_NAME || 'test';
+const MONGO_DB_NAME = process.env.MONGO_DB_NAME || 'sample';
 const url = MONGO_DB_CONN || `mongodb://${MONGO_DB_ADDRESS}:${MONGO_DB_PORT}/${MONGO_DB_NAME}`;
 module.exports = {
     cors: {
@@ -11,7 +12,13 @@ module.exports = {
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
         origin: ['*']
     },
-    dbConnections: [],
+    dbConnections: [
+        {
+            mongoClientOptions: {},
+            name: db_1.dbs.sample.db,
+            url
+        }
+    ],
     logging: {
         transports: [
             {

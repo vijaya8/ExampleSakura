@@ -78,7 +78,7 @@ export class ConfigApi extends SapiRoutableMixin() {
     try {
       locals
         .send(OK, {
-          server: 'sakurasample',
+          server: 'sakuraclassexample',
           serverUp: true
         });
     } catch (err) {
